@@ -1,0 +1,43 @@
+header{
+background-color: #5957a1;
+text-align: center;
+padding: 10px;
+height: 70px;
+}
+#lewy{
+	background-color: #bbadcd;
+	width: 65%;
+	height: 450px;
+	overflow: scroll;
+	float: left;
+}
+#prawy{
+	background-color: #5957a1;
+	text-align: center;
+	width: 35%;
+	float: left;
+}
+footer{
+	background-color: #5957a1;
+	text-align: center;
+	height: 50px;
+	clear: both;
+}
+a{
+	color: yellow;
+}
+body{
+	font-family: arial;
+	color: white;
+}
+hr{
+	border-color: yellow;
+}
+ul{
+	list-style-type: square;
+}
+td{
+	border-color: black;
+	border-style: dashed;
+	border-width: 1px;
+}

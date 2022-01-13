@@ -1,0 +1,43 @@
+body{
+	font-family: Helvetica;
+	color: black;
+	margin: auto;
+}
+#b1 {
+	background-color: snow;
+	width: 70%;
+	height:400px;
+	float: left;
+	text-align: center;
+	}
+#b2{
+	background-color: snow;
+	width: 70%;
+	height: 400px;
+	text-align: center;
+	float: left;
+}
+#l{
+	background-color: SteelBlue;
+	width: 30%;
+	height: 150px;
+	float: right;
+}
+#p{
+	background-color: SteelBlue;
+	width: 20%;
+	height: 500px;
+	float: left;
+	color:white;
+}
+#b{
+	float: right;
+	
+}
+footer{
+	background-color: SteelBlue;
+	color:white;
+	position:absolute;
+	bottom: 0;
+}
+

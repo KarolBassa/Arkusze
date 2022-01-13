@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Szkoła ponadgimnazjalna</title>
+  <link rel="stylesheet" href="styl.css">
+ </head>
+ <body>
+  <header>
+<h1>Projekt strony internetowej szkoly ponadgimnazjalnej</h1>
+  </header>
+  <div id="lewy">
+  <table>
+  <tr>
+  <td>Treść zapytania</td>
+  <td width="405px">Zrzut ekranu</td>
+  </tr>
+  <tr>
+  <td></td>
+  <td><img src="kwerenda1.jpg" alt="kwerenda1.jpg"></td>
+  </tr>
+  <tr>
+  <td></td>
+  <td><img src="kwerenda2.jpg" alt="kwerenda2.jpg"></td>
+  </tr>
+  <tr>
+  <td></td>
+  <td><img src="nowy_uzytkownik.jpg" alt="nowy_uzytkownik.jpg"></td>
+  </tr>
+  <tr>
+  <td></td>
+  <td><img src="uprawnienia.jpg" alt="uprawnienia.jpg"></td>
+  </tr>
+  </table>
+  </div>
+   <div id="prawy">
+  <h2>Do pobrania</h2>
+  <ul>
+  <li>
+  <a href="../baza/zapytania.txt">zapytania SQL</a>
+  </li>
+  <li>
+  <a href="../baza/szkola_nowa.sql">baza danych</a>
+  </li>
+  </ul>
+  <hr>
+  <h3>Wyznaczanie najniższej średniej</h3>
+  <ul>
+  <li>Polak <input type"text" id="polak"></li>
+  <li>Nowak <input type"text" id="nowak"></li>
+  <li>Rysik <input type"text" id="rysik"></li>
+  </ul>
+  <button onclick="wyznacz()">wyznacz</button>
+  <h3>Najniższa średnia:</h3>
+  <p id="wynik"></p>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+ </body>
+</html>
