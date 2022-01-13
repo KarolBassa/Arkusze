@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styl.css" type="text/css">
+<title>Działania Matematyczne</title>
+</head>
+<body>
+<div id="ban1">
+<img src="logo.jpg" alt="matematyka">
+</div>
+<div id="ban2">
+<h1>Pomocnik Matematyczny</h1>
+</div>
+<div id="ban3">
+<a href="dzialania.html"><h4>Działania</h4></a>
+</div>
+<div id="ban4">
+<a href="mnozenie.html"><h4>Tabliczka mnożenia</h4></a>
+</div>
+<div id="lewa">
+<h3>Proste działania</h3>
+Liczba A:<input type="number" id="a"><br>
+Liczba B:<input type="number" id="b"></br>
+<button onclick="dodawanie()">+</button>
+<button onclick="odejmowanie()">-</button>
+<button onclick="mnozenie()">*</button>
+<button onclick="dzielenie()">/</button>
+<button onclick="potegowanie()">A^B</button>
+<p id="wynik"></p>
+</div>
+<div id="prawa">
+<ul>
+<li>dodawanie</li>
+<li>odejmowanie</li>
+<li>mnożenie</li>
+<li>dzielenie</li>
+<li>potęgowanie</li>
+</ul>
+</div>
+<div id="stopka">
+<p>Autor:999222333</p>
+</div>
+<script>
+function dodawanie()
+{
+var a = +document.getElementById("a").value ;
+var b = +document.getElementById("b").value ;
+document.getElementById("wynik").innerHTML ="wartość: "+ (a+b);
+}
+function odejmowanie()
+{
+var a = +document.getElementById("a").value ;
+var b = +document.getElementById("b").value ;
+document.getElementById("wynik").innerHTML ="wartość: "+ (a-b);
+}
+function mnozenie()
+{
+var a = +document.getElementById("a").value ;
+var b = +document.getElementById("b").value ;
+document.getElementById("wynik").innerHTML ="wartość: "+ (a*b);
+}
+function dzielenie()
+{
+var a = +document.getElementById("a").value ;
+var b = +document.getElementById("b").value ;
+document.getElementById("wynik").innerHTML ="wartość: "+ (a / b);
+
+}
+function potegowanie()
+{
+var a = +document.getElementById("a").value ;
+var b = +document.getElementById("b").value ;
+document.getElementById("wynik").innerHTML ="wartość: "+ Math.pow(a,b);
+
+}
+</script>
+</body>
+</html>
