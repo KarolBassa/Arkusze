@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Usługi fryzjerskie</title>
+<link rel="stylesheet" href="styl.css" type="text/css">
+</head>
+<body>
+<div id="lewa">
+<a href="index.html"><h2>SALON FRYZJERSKI</h2></a>
+<img src="obraz2.jpg" alt="czesanie">
+</div>
+<div id="prawa">
+<h2>MENU</h2>
+</div>
+<div id="praw">
+<ol>
+<a href="fryzura.html"><li>Strzyżenie</li></a>
+<ul>
+<li>krótkie</li>
+<li>średnie</li>
+<li>półdługie</li>
+<li>długie</li>
+</ul>
+<li>Czesanie</li>
+<li>Koloryzacka</li>
+</ol>
+
+</div>
+<div id="lew">
+<h3>Dziś promocja na strzyżenie włosów</h3>
+<label><input type="radio" id="krotkie" name="a">Krótkie</label><br>
+<label><input type="radio" id="srednie" name="a">Średnie</label><br>
+<label><input type="radio" id="poldlugie" name="a">Półdługie</label><br>
+<label><input type="radio" id="dlugie" name="a">Długie</label><br>
+<button onclick="cennik()"> Odkryj promocję </button>
+<p id="wynik"></p>
+</div>
+<div id="pra">
+<img src="obraz1.jpg" alt="fryzjer">
+</div>
+
+<div id="stopka">
+<p> Autor:222333444</p>
+</div>
+<script>
+function cennik() {
+	var krotkie = document.getElementById("krotkie").checked;
+	var srednie = document.getElementById("srednie").checked;
+	var dlugie = document.getElementById("dlugie").checked;
+	var poldlugie = document.getElementById("poldlugie").checked;
+	var wynik = document.getElementById("wynik");
+	
+	if(krotkie) {
+		wynik.innerHTML =  "25";
+	}
+	else if (srednie) {
+		wynik.innerHTML = "30" ; 
+	}
+	else if (poldlugie) {
+		wynik.innerHTML = "40" ;
+	}
+	else if (dlugie)
+	{
+		wynik.innerHTML = "50" ;
+	}
+	else
+	{
+		wynik.innerHTML = "wybierz opcje" ;
+	}
+}
+</script>
+</body>
+</html>

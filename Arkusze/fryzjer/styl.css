@@ -1,0 +1,66 @@
+body
+{
+font-family:Helvetica;
+}
+#lewa
+{
+	height:400px;
+	width:70%;
+	background-color:Snow;
+	text-align:center;
+	float:left;
+}
+#lew
+{
+	height:400px;
+	width:70%;
+	background-color:Snow;
+	font-size:150%;
+	float:left;
+	
+}
+
+#prawa
+{
+	height:150px;
+	width:30%;
+	background-color:SteelBlue;
+	color:white;
+	text-align:center;
+	float:right;
+}
+#praw
+{
+	height:350px;
+	width:30%;
+	background-color:SteelBlue;
+	color:white;
+	float:right;
+}
+#pra
+{
+	height:300px;
+	width:30%;
+	background-color:Snow;
+	text-align:center;
+	float:right;
+}
+#stopka
+{
+	background-color:SteelBlue;
+	color:White;
+	clear:both;
+}
+h2
+{
+	font-size:250%;
+}
+img
+{
+	padding:4px;
+}
+img:hover
+{
+	padding:3px;
+	border: 1px solid steelblue;
+}
